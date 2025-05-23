@@ -77,7 +77,7 @@ img {
 }
 
 .hero .container {
-  background: url('../images/hero-bg.png') no-repeat;
+  background: linear-gradient(white, var(--orange-color), var(--primary-color), white);
   background-size: contain;
   background-position: center bottom;
   height: 550px;
@@ -290,7 +290,7 @@ img {
 .btn {
   display: inline-block;
   padding: 13px 20px;
-  background: var(--darkgreen-color);
+  background: linear-gradient( var(--light-color), var(--blue-color));
   color: #333;
   font-weight: 600;
   text-decoration: none;
@@ -306,12 +306,12 @@ img {
 }
 
 .btn-primary {
-  background: var(--dark-color);
-  color: #fff;
+  background: linear-gradient( yellow, var(--orange-color));
+  color: black;
 }
 
 .btn-dark {
-  background: var(--dark-color);
+  background: linear-gradient( var(--dark-color), var(--primary-color),var(--blue-color));
   color: #fff;
 }
 
@@ -362,17 +362,17 @@ img {
 
 /* Background */
 .bg-primary {
-  background: var(--dark-color);
+  background: linear-gradient( var(--primary-color),var(--dark-color));
   color: #fff;
 }
 
 .bg-light {
-  background: var(--light-color);
+  background: linear-gradient( var(--primary-color), white);
   color: #333;
 }
 
 .bg-dark {
-  background: var(--dark-color);
+  background: linear-gradient( var(--primary-color),var(--dark-color));
   color: #fff;
 }
 
