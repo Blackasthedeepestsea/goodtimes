@@ -306,6 +306,10 @@ img {
 }
 
 .btn-primary {
+  background: linear-gradient( var(--darkgreen-color),  var(--green-color));
+  color: black;
+}
+.btn-action  {
   background: linear-gradient( yellow, var(--orange-color));
   color: black;
 }
