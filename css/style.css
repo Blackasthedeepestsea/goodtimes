@@ -77,7 +77,9 @@ img {
 }
 
 .hero .container {
-  background: linear-gradient(white, var(--orange-color), var(--primary-color), white);
+  background:  linear-gradient(217deg, rgba(255, 136, 0, 0.8), rgba(255, 0, 0, 0) 70.71%),
+  linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+  linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
   background-size: contain;
   background-position: center bottom;
   height: 550px;
@@ -85,11 +87,13 @@ img {
 
 .hero .hero-content {
   width: 70%;
+  padding: 4px;
 }
 
 .hero .hero-text {
   width: 70%;
   margin-bottom: 20px;
+  padding: 10px 10px;
 }
 
 /* Video */
