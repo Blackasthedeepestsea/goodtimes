@@ -305,12 +305,26 @@ img {
   transition: 0.5s;
 }
 
+.btn-mobile {
+  display: inline-block;
+  padding: 13px 20px;
+  background: linear-gradient( var(--light-color), var(--blue-color));
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.5s;
+}
+
 .btn:hover {
   opacity: 0.8;
 }
 
 .btn-primary {
-  background: radial-gradient(white, var(--darkgreen-color), var(--green-color));
+  background: linear-gradient( var(--blue-color), var(--green-color));
   color: black;
 }
 .btn-action  {
@@ -458,6 +472,7 @@ img {
     background-size: 350px 400px;
     background-position: bottom;
     height: 770px;
+    padding: 5px;
   }
 
   .hero .hero-content,
