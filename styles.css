@@ -22,7 +22,7 @@ body {
 }
 
 .btn {
-    background: rgb(105, 132, 219);
+    background: rgb(97, 25, 180);
     color: white;
     padding: 0.6rem 1.3rem;
     text-decoration: none;
@@ -32,7 +32,7 @@ body {
    text-align: center;
 }
 .btn1 {
-    background: rgb(55, 113, 220);
+    background: rgb(132, 55, 220);
     color: white;
     padding: 0.6rem 1.3rem;
     text-decoration: none;
@@ -89,7 +89,7 @@ img {
 
 
 .main-nav a:hover {
-    background: rgb(9, 105, 132);
+    background: rgb(200, 194, 249);
     color: var(--light);
 }
 
@@ -111,7 +111,7 @@ img {
 .showcase {
     grid-area: showcase;
     min-height: 400px;
-    background: url(images/pic1.png);
+    background: url(images/riccardo.png);
     background-size: cover;
     background-position: center;
     padding: 3rem;
@@ -126,12 +126,14 @@ img {
 .showcase h1 {
     font-size: 4rem;
     margin-bottom: 0;
+    margin-top: 24rem;
     color: var(--light);
 }
 
 .showcase p{
     margin-top: 0;
     font-size: 1.3rem;
+
 }
 
 /* top box */
@@ -189,7 +191,6 @@ img {
 .info img {
    
     border: solid rgb(44, 33, 42) 7px;
-    height: 300px;
     box-shadow: var(--shadow);
 
 }
