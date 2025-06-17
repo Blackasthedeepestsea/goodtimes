@@ -468,10 +468,8 @@ img {
   }
 
   .hero .container {
-    background: url('../images/hero-bg-mobile.png') no-repeat;
-    background-size: 300px 350px;
-    background-position: bottom;
-    height: 770px;
+    background: white;
+     height: 400px;
   }
 
   .hero .hero-content,
