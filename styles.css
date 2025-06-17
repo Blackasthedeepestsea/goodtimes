@@ -22,7 +22,7 @@ body {
 }
 
 .btn {
-    background: rgb(59, 39, 132);
+    background: rgb(21, 16, 123);
     color: white;
     padding: 0.6rem 1.3rem;
     text-decoration: none;
@@ -89,7 +89,7 @@ img {
 
 
 .main-nav a:hover {
-    background: rgb(200, 194, 249);
+    background: rgb(21, 16, 123);
     color: var(--light);
 }
 

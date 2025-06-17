@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary-color: #cbc5ff;
+  --primary-color: rgb(39, 195, 238);
   --light-color: #e8f6ea;
   --dark-color: #4a27ff;
   --orange-color: #ffae95;
@@ -77,9 +77,9 @@ img {
 }
 
 .hero .container {
-  background:  linear-gradient(217deg, var(--orange-color), rgba(255, 0, 0, 0) 70.71%),
-  linear-gradient(127deg, var(--darkgreen-color), rgba(0, 255, 0, 0) 70.71%),
-  linear-gradient(336deg, var(--primary-color), rgba(0, 0, 255, 0) 70.71%);
+  background:  linear-gradient(217deg, rgb(39, 195, 238), rgba(255, 0, 0, 0) 70.71%),
+  linear-gradient(127deg,  rgb(63, 136, 214), rgba(0, 255, 0, 0) 70.71%),
+  linear-gradient(336deg, rgb(21, 16, 123), rgba(0, 0, 255, 0) 70.71%);
   background-size: contain;
   background-position: center bottom;
   height: 550px;
@@ -469,7 +469,7 @@ img {
 
   .hero .container {
     background: white;
-     height: 400px;
+     height: 350px;
   }
 
   .hero .hero-content,
